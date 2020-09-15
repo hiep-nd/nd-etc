@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20A5FE434D54FDDA66162BF /* Pods_NDEtc_NDEtcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FC49FF8B064E038C3B0761 /* Pods_NDEtc_NDEtcTests.framework */; };
+		BA337A2A24E4F4C60061B1DC /* NDEtc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA337A2024E4F4C50061B1DC /* NDEtc.framework */; };
+		BA337A2F24E4F4C60061B1DC /* NDEtcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA337A2E24E4F4C60061B1DC /* NDEtcTests.m */; };
+		BA337A3124E4F4C60061B1DC /* NDEtc.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A2324E4F4C50061B1DC /* NDEtc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA337A7324E51D290061B1DC /* NDScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A7124E51D290061B1DC /* NDScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA337A7424E51D290061B1DC /* NDScrollViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA337A7224E51D290061B1DC /* NDScrollViewController.mm */; };
+		BA337A7C24E52A3B0061B1DC /* NDValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A7A24E52A3B0061B1DC /* NDValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA337A7D24E52A3B0061B1DC /* NDValidator.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA337A7B24E52A3B0061B1DC /* NDValidator.mm */; };
+		BA337A8224E52AE10061B1DC /* NDValidators.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A8024E52AE10061B1DC /* NDValidators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA337A8324E52AE10061B1DC /* NDValidators.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA337A8124E52AE10061B1DC /* NDValidators.mm */; };
+		BA337A8724E52B390061B1DC /* NDSpotlightBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A8524E52B390061B1DC /* NDSpotlightBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA337A8824E52B390061B1DC /* NDSpotlightBackground.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA337A8624E52B390061B1DC /* NDSpotlightBackground.mm */; };
+		BA337A8B24E52B870061B1DC /* NDSpotlightBackgroundSpotlight.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A8924E52B870061B1DC /* NDSpotlightBackgroundSpotlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA337A8C24E52B870061B1DC /* NDSpotlightBackgroundSpotlight.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA337A8A24E52B870061B1DC /* NDSpotlightBackgroundSpotlight.mm */; };
+		BA337A8F24E52CBE0061B1DC /* NDSpotlightBackgroundSpotlight+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = BA337A8D24E52CBE0061B1DC /* NDSpotlightBackgroundSpotlight+Protected.h */; };
+		BA337A9224E52EAB0061B1DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA337A9124E52EAB0061B1DC /* UIKit.framework */; platformFilter = ios; };
+		BA337A9424E52ED30061B1DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA337A9324E52ED30061B1DC /* CoreGraphics.framework */; };
+		F4ECE4FD16AD4FC9FD291A86 /* Pods_NDEtc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18663119029221F6D27C16F2 /* Pods_NDEtc.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA337A2B24E4F4C60061B1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA337A1724E4F4C50061B1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA337A1F24E4F4C50061B1DC;
+			remoteInfo = NDEtc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10FC49FF8B064E038C3B0761 /* Pods_NDEtc_NDEtcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NDEtc_NDEtcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18663119029221F6D27C16F2 /* Pods_NDEtc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NDEtc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277B307A852639ED1E2C58EA /* Pods-NDEtc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDEtc.debug.xcconfig"; path = "Target Support Files/Pods-NDEtc/Pods-NDEtc.debug.xcconfig"; sourceTree = "<group>"; };
+		411C022CAAB53C5BBE59B9B1 /* Pods-NDEtc-NDEtcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDEtc-NDEtcTests.debug.xcconfig"; path = "Target Support Files/Pods-NDEtc-NDEtcTests/Pods-NDEtc-NDEtcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73CB0DAAAEBCB0639275DC85 /* Pods-NDEtc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDEtc.release.xcconfig"; path = "Target Support Files/Pods-NDEtc/Pods-NDEtc.release.xcconfig"; sourceTree = "<group>"; };
+		BA337A2024E4F4C50061B1DC /* NDEtc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NDEtc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA337A2324E4F4C50061B1DC /* NDEtc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDEtc.h; sourceTree = "<group>"; };
+		BA337A2424E4F4C50061B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA337A2924E4F4C60061B1DC /* NDEtcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDEtcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA337A2E24E4F4C60061B1DC /* NDEtcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDEtcTests.m; sourceTree = "<group>"; };
+		BA337A3024E4F4C60061B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA337A6A24E4FF2A0061B1DC /* swift-format */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "swift-format"; sourceTree = "<group>"; };
+		BA337A6B24E4FF2A0061B1DC /* clang-format */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "clang-format"; sourceTree = "<group>"; };
+		BA337A6C24E4FF2A0061B1DC /* swift-format_5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "swift-format_5.1"; sourceTree = "<group>"; };
+		BA337A6D24E4FF2A0061B1DC /* .swift-format */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-format"; sourceTree = "<group>"; };
+		BA337A6E24E4FF2A0061B1DC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BA337A6F24E4FF2A0061B1DC /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		BA337A7024E4FF2A0061B1DC /* NDEtc.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NDEtc.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA337A7124E51D290061B1DC /* NDScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDScrollViewController.h; sourceTree = "<group>"; };
+		BA337A7224E51D290061B1DC /* NDScrollViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDScrollViewController.mm; sourceTree = "<group>"; };
+		BA337A7624E520580061B1DC /* NDStaticListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDStaticListViewController.h; sourceTree = "<group>"; };
+		BA337A7724E520580061B1DC /* NDStaticListViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDStaticListViewController.mm; sourceTree = "<group>"; };
+		BA337A7A24E52A3B0061B1DC /* NDValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDValidator.h; sourceTree = "<group>"; };
+		BA337A7B24E52A3B0061B1DC /* NDValidator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDValidator.mm; sourceTree = "<group>"; };
+		BA337A8024E52AE10061B1DC /* NDValidators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDValidators.h; sourceTree = "<group>"; };
+		BA337A8124E52AE10061B1DC /* NDValidators.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDValidators.mm; sourceTree = "<group>"; };
+		BA337A8524E52B390061B1DC /* NDSpotlightBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSpotlightBackground.h; sourceTree = "<group>"; };
+		BA337A8624E52B390061B1DC /* NDSpotlightBackground.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDSpotlightBackground.mm; sourceTree = "<group>"; };
+		BA337A8924E52B870061B1DC /* NDSpotlightBackgroundSpotlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDSpotlightBackgroundSpotlight.h; sourceTree = "<group>"; };
+		BA337A8A24E52B870061B1DC /* NDSpotlightBackgroundSpotlight.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDSpotlightBackgroundSpotlight.mm; sourceTree = "<group>"; };
+		BA337A8D24E52CBE0061B1DC /* NDSpotlightBackgroundSpotlight+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NDSpotlightBackgroundSpotlight+Protected.h"; sourceTree = "<group>"; };
+		BA337A9124E52EAB0061B1DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA337A9324E52ED30061B1DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BA337ADF24E549480061B1DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE5345CB48B5DA47D4243397 /* Pods-NDEtc-NDEtcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDEtc-NDEtcTests.release.xcconfig"; path = "Target Support Files/Pods-NDEtc-NDEtcTests/Pods-NDEtc-NDEtcTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA337A1D24E4F4C50061B1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA337A9424E52ED30061B1DC /* CoreGraphics.framework in Frameworks */,
+				F4ECE4FD16AD4FC9FD291A86 /* Pods_NDEtc.framework in Frameworks */,
+				BA337A9224E52EAB0061B1DC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA337A2624E4F4C60061B1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA337A2A24E4F4C60061B1DC /* NDEtc.framework in Frameworks */,
+				A20A5FE434D54FDDA66162BF /* Pods_NDEtc_NDEtcTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219AEA3822240BAEEA5AE96A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				277B307A852639ED1E2C58EA /* Pods-NDEtc.debug.xcconfig */,
+				73CB0DAAAEBCB0639275DC85 /* Pods-NDEtc.release.xcconfig */,
+				411C022CAAB53C5BBE59B9B1 /* Pods-NDEtc-NDEtcTests.debug.xcconfig */,
+				BE5345CB48B5DA47D4243397 /* Pods-NDEtc-NDEtcTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA337A1624E4F4C50061B1DC = {
+			isa = PBXGroup;
+			children = (
+				BA337A6824E4FC070061B1DC /* Config */,
+				BA337A2224E4F4C50061B1DC /* NDEtc */,
+				BA337A2D24E4F4C60061B1DC /* NDEtcTests */,
+				BA337A2124E4F4C50061B1DC /* Products */,
+				219AEA3822240BAEEA5AE96A /* Pods */,
+				E76E1C641227DB35764F9420 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA337A2124E4F4C50061B1DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A2024E4F4C50061B1DC /* NDEtc.framework */,
+				BA337A2924E4F4C60061B1DC /* NDEtcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA337A2224E4F4C50061B1DC /* NDEtc */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A7524E520290061B1DC /* Developing */,
+				BA337A2324E4F4C50061B1DC /* NDEtc.h */,
+				BA337A2424E4F4C50061B1DC /* Info.plist */,
+				BA337A7124E51D290061B1DC /* NDScrollViewController.h */,
+				BA337A7224E51D290061B1DC /* NDScrollViewController.mm */,
+				BA337A8424E52B1A0061B1DC /* NDSpotlightBackground */,
+				BA337A7F24E52A610061B1DC /* NDValidator */,
+			);
+			path = NDEtc;
+			sourceTree = "<group>";
+		};
+		BA337A2D24E4F4C60061B1DC /* NDEtcTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A2E24E4F4C60061B1DC /* NDEtcTests.m */,
+				BA337A3024E4F4C60061B1DC /* Info.plist */,
+			);
+			path = NDEtcTests;
+			sourceTree = "<group>";
+		};
+		BA337A6824E4FC070061B1DC /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A6D24E4FF2A0061B1DC /* .swift-format */,
+				BA337A6F24E4FF2A0061B1DC /* .swiftlint.yml */,
+				BA337A6E24E4FF2A0061B1DC /* LICENSE */,
+				BA337A7024E4FF2A0061B1DC /* NDEtc.podspec */,
+				BA337ADF24E549480061B1DC /* README.md */,
+				BA337A6924E4FF2A0061B1DC /* Tools */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		BA337A6924E4FF2A0061B1DC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A6A24E4FF2A0061B1DC /* swift-format */,
+				BA337A6B24E4FF2A0061B1DC /* clang-format */,
+				BA337A6C24E4FF2A0061B1DC /* swift-format_5.1 */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BA337A7524E520290061B1DC /* Developing */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A7624E520580061B1DC /* NDStaticListViewController.h */,
+				BA337A7724E520580061B1DC /* NDStaticListViewController.mm */,
+			);
+			name = Developing;
+			sourceTree = "<group>";
+		};
+		BA337A7F24E52A610061B1DC /* NDValidator */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A7A24E52A3B0061B1DC /* NDValidator.h */,
+				BA337A7B24E52A3B0061B1DC /* NDValidator.mm */,
+				BA337A8024E52AE10061B1DC /* NDValidators.h */,
+				BA337A8124E52AE10061B1DC /* NDValidators.mm */,
+			);
+			name = NDValidator;
+			sourceTree = "<group>";
+		};
+		BA337A8424E52B1A0061B1DC /* NDSpotlightBackground */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A8524E52B390061B1DC /* NDSpotlightBackground.h */,
+				BA337A8624E52B390061B1DC /* NDSpotlightBackground.mm */,
+				BA337A8924E52B870061B1DC /* NDSpotlightBackgroundSpotlight.h */,
+				BA337A8A24E52B870061B1DC /* NDSpotlightBackgroundSpotlight.mm */,
+				BA337A8D24E52CBE0061B1DC /* NDSpotlightBackgroundSpotlight+Protected.h */,
+			);
+			name = NDSpotlightBackground;
+			sourceTree = "<group>";
+		};
+		E76E1C641227DB35764F9420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA337A9324E52ED30061B1DC /* CoreGraphics.framework */,
+				BA337A9124E52EAB0061B1DC /* UIKit.framework */,
+				18663119029221F6D27C16F2 /* Pods_NDEtc.framework */,
+				10FC49FF8B064E038C3B0761 /* Pods_NDEtc_NDEtcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA337A1B24E4F4C50061B1DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA337A8724E52B390061B1DC /* NDSpotlightBackground.h in Headers */,
+				BA337A7C24E52A3B0061B1DC /* NDValidator.h in Headers */,
+				BA337A7324E51D290061B1DC /* NDScrollViewController.h in Headers */,
+				BA337A3124E4F4C60061B1DC /* NDEtc.h in Headers */,
+				BA337A8B24E52B870061B1DC /* NDSpotlightBackgroundSpotlight.h in Headers */,
+				BA337A8F24E52CBE0061B1DC /* NDSpotlightBackgroundSpotlight+Protected.h in Headers */,
+				BA337A8224E52AE10061B1DC /* NDValidators.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA337A1F24E4F4C50061B1DC /* NDEtc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA337A3424E4F4C60061B1DC /* Build configuration list for PBXNativeTarget "NDEtc" */;
+			buildPhases = (
+				2C9CD9329D7DD34B8B8BA9F2 /* [CP] Check Pods Manifest.lock */,
+				BA337A1B24E4F4C50061B1DC /* Headers */,
+				BA337A1C24E4F4C50061B1DC /* Sources */,
+				BA337A1D24E4F4C50061B1DC /* Frameworks */,
+				BA337A1E24E4F4C50061B1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NDEtc;
+			productName = NDEtc;
+			productReference = BA337A2024E4F4C50061B1DC /* NDEtc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA337A2824E4F4C60061B1DC /* NDEtcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA337A3724E4F4C60061B1DC /* Build configuration list for PBXNativeTarget "NDEtcTests" */;
+			buildPhases = (
+				B641D128B561799BE16B4919 /* [CP] Check Pods Manifest.lock */,
+				BA337A2524E4F4C60061B1DC /* Sources */,
+				BA337A2624E4F4C60061B1DC /* Frameworks */,
+				BA337A2724E4F4C60061B1DC /* Resources */,
+				EC6E82ACAAA16130C327FD38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA337A2C24E4F4C60061B1DC /* PBXTargetDependency */,
+			);
+			name = NDEtcTests;
+			productName = NDEtcTests;
+			productReference = BA337A2924E4F4C60061B1DC /* NDEtcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA337A1724E4F4C50061B1DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Nguyen Duc Hiep";
+				TargetAttributes = {
+					BA337A1F24E4F4C50061B1DC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					BA337A2824E4F4C60061B1DC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BA337A1A24E4F4C50061B1DC /* Build configuration list for PBXProject "NDEtc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA337A1624E4F4C50061B1DC;
+			productRefGroup = BA337A2124E4F4C50061B1DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA337A1F24E4F4C50061B1DC /* NDEtc */,
+				BA337A2824E4F4C60061B1DC /* NDEtcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA337A1E24E4F4C50061B1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA337A2724E4F4C60061B1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C9CD9329D7DD34B8B8BA9F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NDEtc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B641D128B561799BE16B4919 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NDEtc-NDEtcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6E82ACAAA16130C327FD38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NDEtc-NDEtcTests/Pods-NDEtc-NDEtcTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NDEtc-NDEtcTests/Pods-NDEtc-NDEtcTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NDEtc-NDEtcTests/Pods-NDEtc-NDEtcTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA337A1C24E4F4C50061B1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA337A8324E52AE10061B1DC /* NDValidators.mm in Sources */,
+				BA337A8C24E52B870061B1DC /* NDSpotlightBackgroundSpotlight.mm in Sources */,
+				BA337A7D24E52A3B0061B1DC /* NDValidator.mm in Sources */,
+				BA337A8824E52B390061B1DC /* NDSpotlightBackground.mm in Sources */,
+				BA337A7424E51D290061B1DC /* NDScrollViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA337A2524E4F4C60061B1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA337A2F24E4F4C60061B1DC /* NDEtcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA337A2C24E4F4C60061B1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA337A1F24E4F4C50061B1DC /* NDEtc */;
+			targetProxy = BA337A2B24E4F4C60061B1DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA337A3224E4F4C60061B1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA337A3324E4F4C60061B1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA337A3524E4F4C60061B1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277B307A852639ED1E2C58EA /* Pods-NDEtc.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NDEtc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.NDEtc;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA337A3624E4F4C60061B1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73CB0DAAAEBCB0639275DC85 /* Pods-NDEtc.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NDEtc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.NDEtc;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA337A3824E4F4C60061B1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 411C022CAAB53C5BBE59B9B1 /* Pods-NDEtc-NDEtcTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				INFOPLIST_FILE = NDEtcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(CONFIGURATION_BUILD_DIR)",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.NDEtcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA337A3924E4F4C60061B1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5345CB48B5DA47D4243397 /* Pods-NDEtc-NDEtcTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				INFOPLIST_FILE = NDEtcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(CONFIGURATION_BUILD_DIR)",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.NDEtcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA337A1A24E4F4C50061B1DC /* Build configuration list for PBXProject "NDEtc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA337A3224E4F4C60061B1DC /* Debug */,
+				BA337A3324E4F4C60061B1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA337A3424E4F4C60061B1DC /* Build configuration list for PBXNativeTarget "NDEtc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA337A3524E4F4C60061B1DC /* Debug */,
+				BA337A3624E4F4C60061B1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA337A3724E4F4C60061B1DC /* Build configuration list for PBXNativeTarget "NDEtcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA337A3824E4F4C60061B1DC /* Debug */,
+				BA337A3924E4F4C60061B1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA337A1724E4F4C50061B1DC /* Project object */;
+}
