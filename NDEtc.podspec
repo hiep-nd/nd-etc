@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NDEtc"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "An utilities library will be classified in the future."
   s.description  = <<-DESC
   NDEtc is a utilities library will be classified in the future.
@@ -14,13 +14,14 @@ Pod::Spec.new do |s|
   #s.source        = { :http => 'file:' + URI.escape(__dir__) + '/' }
   s.source       = { :git => "https://github.com/hiep-nd/nd-etc.git", :tag => "Pod-#{s.version}" }
   
-  s.source_files  = "#{s.name}/**/*.{h,m,mm,swift}"
-#  s.public_header_files = '#{s.name}/**/*.h'
-  
+  s.source_files  = "Sources/*.{h,m,mm,swift}"
+
   s.framework = 'CoreGraphics', 'Foundation', 'UIKit'
-  s.dependency 'NDAutolayoutUtils', '~> 0.0.5'
-  s.dependency 'NDLog', '~> 0.0.5'
-  s.dependency 'NDManualObjects', '~> 0.0.7'
-  s.dependency 'NDMVVM', '~> 0.0.3'
-  s.dependency 'NDUtils/objc', '~> 0.0.4'
+
+  s.dependency 'NDAutolayoutUtils', '~> 0.0.7'
+  s.dependency 'NDLog', '~> 0.0.6'
+  s.dependency 'NDManualObjects', '~> 0.0.8'
+  s.dependency 'NDMVVM', '~> 0.0.4'
+  s.dependency 'NDUtils/objc', '~> 0.0.5'
+  s.dependency 'TagListView', '~> 1.0'
 end

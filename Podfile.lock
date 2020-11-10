@@ -1,33 +1,101 @@
 PODS:
-  - NDAutolayoutUtils (0.0.5):
-    - NDLog (~> 0.0.5)
-    - NDUtils/Foundation (~> 0.0.4)
-  - NDLog (0.0.5)
-  - NDManualObjects (0.0.7):
-    - NDLog (~> 0.0.5)
-    - NDUtils/objc (~> 0.0.4)
-  - NDMVVM (0.0.3):
-    - NDLog (~> 0.0.5)
-    - NDManualObjects (~> 0.0.7)
-    - NDUtils/objc (~> 0.0.4)
-  - NDUtils/Core (0.0.4.1)
-  - NDUtils/Foundation (0.0.4.1):
-    - NDLog (~> 0.0.5)
+  - NDAutolayoutUtils (0.0.7):
+    - NDAutolayoutUtils/Swift (= 0.0.7)
+  - NDAutolayoutUtils/Core (0.0.7):
+    - NDLog (~> 0.0.6)
+    - NDUtils/Foundation (~> 0.0.5)
+  - NDAutolayoutUtils/Swift (0.0.7):
+    - NDAutolayoutUtils/Core
+  - NDEtc (0.0.2):
+    - NDAutolayoutUtils (~> 0.0.7)
+    - NDLog (~> 0.0.6)
+    - NDManualObjects (~> 0.0.8)
+    - NDMVVM (~> 0.0.4)
+    - NDUtils/objc (~> 0.0.5)
+    - TagListView (~> 1.0)
+  - NDLog (0.0.6.1):
+    - NDLog/Swift (= 0.0.6.1)
+  - NDLog/Core (0.0.6.1)
+  - NDLog/ObjC (0.0.6.1):
+    - NDLog/Core
+  - NDLog/Swift (0.0.6.1):
+    - NDLog/Core
+  - NDManualObjects (0.0.8):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDManualObjects/Swift (= 0.0.8)
+    - NDUtils/objc (~> 0.0.5)
+  - NDManualObjects/Abstracts (0.0.8):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDManualObjects/Core
+    - NDUtils/objc (~> 0.0.5)
+  - NDManualObjects/Core (0.0.8):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDUtils/objc (~> 0.0.5)
+  - NDManualObjects/ObjC (0.0.8):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDManualObjects/Abstracts
+    - NDManualObjects/Core
+    - NDManualObjects/Objects
+    - NDUtils/objc (~> 0.0.5)
+  - NDManualObjects/Objects (0.0.8):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDManualObjects/Abstracts
+    - NDUtils/objc (~> 0.0.5)
+  - NDManualObjects/Swift (0.0.8):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDManualObjects/ObjC
+    - NDUtils/objc (~> 0.0.5)
+  - NDMVVM (0.0.4):
+    - NDMVVM/Swift (= 0.0.4)
+  - NDMVVM/Abstracts (0.0.4):
+    - NDMVVM/Core
+    - NDUtils/objc (~> 0.0.5)
+  - NDMVVM/Abstracts_Swift (0.0.4):
+    - NDMVVM/Abstracts
+  - NDMVVM/Core (0.0.4)
+  - NDMVVM/ObjC (0.0.4):
+    - NDMVVM/Abstracts
+    - NDMVVM/Core
+    - NDMVVM/ViewModels
+    - NDMVVM/Views
+  - NDMVVM/Swift (0.0.4):
+    - NDMVVM/Abstracts_Swift
+    - NDMVVM/ObjC
+  - NDMVVM/ViewModels (0.0.4):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDMVVM/Abstracts
+    - NDUtils/objc (~> 0.0.5)
+  - NDMVVM/Views (0.0.4):
+    - NDLog/ObjC (~> 0.0.6)
+    - NDManualObjects/ObjC (~> 0.0.8)
+    - NDMVVM/Abstracts
+    - NDUtils/objc (~> 0.0.5)
+  - NDUtils/Core (0.0.5)
+  - NDUtils/Foundation (0.0.5):
+    - NDLog/ObjC (~> 0.0.6)
     - NDUtils/Core
-  - NDUtils/objc (0.0.4.1):
-    - NDLog (~> 0.0.5)
+  - NDUtils/objc (0.0.5):
+    - NDLog/ObjC (~> 0.0.6)
     - NDUtils/Core
+  - TagListView (1.4.1)
 
 DEPENDENCIES:
   - NDAutolayoutUtils (from `../NDAutolayoutUtils`)
+  - NDEtc (from `.`)
   - NDLog (from `../NDLog`)
   - NDManualObjects (from `../NDManualObjects`)
   - NDMVVM (from `../NDMVVM`)
   - NDUtils/objc (from `../NDUtils`)
 
+SPEC REPOS:
+  trunk:
+    - TagListView
+
 EXTERNAL SOURCES:
   NDAutolayoutUtils:
     :path: "../NDAutolayoutUtils"
+  NDEtc:
+    :path: "."
   NDLog:
     :path: "../NDLog"
   NDManualObjects:
@@ -38,12 +106,14 @@ EXTERNAL SOURCES:
     :path: "../NDUtils"
 
 SPEC CHECKSUMS:
-  NDAutolayoutUtils: f8c33d41b4bba1e0e44309ee82f8b1906c5f0b9f
-  NDLog: 2d478a5bc74f17ee56fea08adb6dacdaa36a07e6
-  NDManualObjects: 521b421751b3be3b8553283c56574481e7692da6
-  NDMVVM: 782b79f5ae660fd896e54fd8187c206c7e625a5d
-  NDUtils: 071967534549cb07e0122a53af462e4a5d6da124
+  NDAutolayoutUtils: 82fc48d4cba9e7a0d1dfce819cc36e74ed60514d
+  NDEtc: f45ec1b3189c761226ecbcdb8bf31c989c581627
+  NDLog: 1e996efb979679f547dcf729a955fe92577ed2c5
+  NDManualObjects: 7c9fc425d39de4c73aa93ca5c5f6dc76b3499167
+  NDMVVM: c9aa2fb24e5f21af3c3b77645f0a2b80bb8976a5
+  NDUtils: 77434f23e14037a6366a7371d359a8c18a571276
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
 
-PODFILE CHECKSUM: 8d6de7df11cc4d6b747f319ba2700f2f3bc236d9
+PODFILE CHECKSUM: e361db52818256feee501059b4ca7adce6a3699e
 
 COCOAPODS: 1.9.3
